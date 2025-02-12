@@ -1,10 +1,11 @@
 
 # Challenge-AluraOne
 
-Repositório para estudos e desafios voltados para o projeto/curso Alura-One
-\
+Repositório para estudos e desafios do projeto do curso Alura-One
 
-By: Oracle and Alura
+[Clique aqui para Sortear o Seu Amigo Secreto - Challenge-AluraOne](https://rmartinione.github.io/Challenge-AluraOne/challenge-amigo-secreto/index.html)
+
+[Clique aqui para Visualizar o repositório do Challenge-AluraOne "Amigo Secreto"](https://github.com/rmartinione/Challenge-AluraOne/tree/ff24712de38b0c1bc1baa21c8724645dd860e697/challenge-amigo-secreto)
 
 
 ## 🚀 Sobre mim...
@@ -21,28 +22,24 @@ Nesse momento busco expandir esse aprendizado e utilizar para algum fim produtiv
 Assim sigo, insistindo nesse grande e longo aprendizado diário.
 
 
-
-
-
 ## Aprendizados
 
 Atualmente, estudos aplicados para JavaScript, HTML e CSS.
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Acknowledgements
+## Saiba mais sobre o projeto
 
  - [Conheça a iniciativa ONE (Oracle Next Education)](https://www.oracle.com/br/education/oracle-next-education/)
  - [Conheça a Alura](https://www.alura.com.br/sobre)
 
 
-## Em Andamento...
+## Em Andamento ("Quando uma jornada termina, sempre haverá novas aventuras!")
 
-Em breve será mostrado nessa sessão algumas amostras públicas de código...
 
 ```bash
   comando <subcomando>
-     resultado_Subcomando(#"Em_Construção"#)
+     resultado_Subcomando(#"Sempre_Em_Evolução"#)
 ```
 
 
