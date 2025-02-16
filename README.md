@@ -14,7 +14,9 @@ Estou animado com minha jornada na programação web, e busco sempre aplicar meu
 
 ### 🔗 Conecte-se comigo no LinkedIn:
 
-[![badge linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-martiniano?trk=profile-badge)
+<a href="https://www.linkedin.com/in/rafael-martiniano?trk=profile-badge" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 
 ---
 
