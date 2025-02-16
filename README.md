@@ -14,14 +14,7 @@ Estou animado com minha jornada na programação web, e busco sempre aplicar meu
 
 ### 🔗 Conecte-se comigo no LinkedIn:
 
-<!-- Badge do LinkedIn -->
-<a href="https://www.linkedin.com/in/rafael-martiniano?trk=profile-badge" target="_blank" style="text-decoration: none; display: inline-block; background-color: #0077b5; color: white; font-size: 16px; padding: 10px 20px; border-radius: 5px; margin-top: 10px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/LinkedIn_Logo_2013.svg/120px-LinkedIn_Logo_2013.svg.png" alt="LinkedIn" style="width: 20px; vertical-align: middle; margin-right: 8px;">
-    LinkedIn
-</a>
-<a href="https://www.linkedin.com/in/rafael-martiniano?trk=profile-badge" target="_blank" style="text-decoration: none; display: inline-block; background-color: #808080; color: white; font-size: 16px; padding: 10px 20px; border-radius: 5px; margin-left: 5px;">
-    <span style="vertical-align: middle; margin-right: 8px;">Rafael M.</span>
-</a>
+[![badge linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-martiniano?trk=profile-badge)
 
 ---
 
@@ -73,6 +66,8 @@ Abaixo, um dos projetos que realizei durante o curso:
 
 ---
 
+## :white_check_mark: Minhas estatísticas ##
+
 ![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
 
 ## Status do Projetos: Em Andamento
@@ -82,3 +77,4 @@ Abaixo, um dos projetos que realizei durante o curso:
 ```bash
   comando <subcomando>
      resultado_Subcomando(#"Sempre_Em_Evolução"#)
+```
