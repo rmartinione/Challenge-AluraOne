@@ -13,13 +13,15 @@ Repositório para estudos e desafios do projeto do curso Alura-One
 
 Me chamo Rafael Martiniano.
 
-Sou um aspirante a programador/desenvolvedor, adquirindo novas experiências e conhecimentos voltados para área da tecnologia.
+Sou um estudante entusiasta em tecnologia de front-end dedicado e focado na construção de sites interativos e responsivos. 
+Atualmente me concentro em HTML, CSS, JavaScript e estou aprendendo as melhores práticas para design responsivo e experiência do usuário. 
+Busco adquirir novas experiências e além desses conhecimentos, tecnologias de produtos como os fornecidos pela Microsoft, Oracle, Cisco, Fortigate e outros atraem meu interesse.
 
-Hoje a tecnologia se encontra em constante evolução em todos os campos do conhecimento humano, dos segmentos de negócios e mercados, da vida de todos os seres humanos existentes no planeta terra hoje.
+Um amante da Tecnologia moderna e contemporânea com a IA sendo o carro chefe.
 
-Nesse momento busco expandir esse aprendizado e utilizar para algum fim produtivo no qual possa beneficiar o maximo de pessoas possíveis.
-
-Assim sigo, insistindo nesse grande e longo aprendizado diário.
+Embora eu tenha iniciado minha carreira em desenvolvimento web, estou animado para aplicar as habilidades que adquiri em projetos do mundo real e desafios de codificação. 
+Procuro focar e aplicar as tecnologias voltadas área do desenvolvimento web, sempre mantendo meus recursos seguros e contribuir com soluções criativas e inovadoras.
+E quem sabe conseguir contribuir com a comunidade, porque não?
 
 
 ## Aprendizados
