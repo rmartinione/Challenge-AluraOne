@@ -9,8 +9,6 @@ Repositório para estudos e desafios do projeto do curso **Alura-One**
 [Clique aqui para Visualizar o repositório do Challenge-AluraOne "Amigo Secreto"](https://github.com/rmartinione/Challenge-AluraOne/tree/ff24712de38b0c1bc1baa21c8724645dd860e697/challenge-amigo-secreto)
 
 
-[![Solid](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:www.linkedin.com/in/rafael-martiniano)
-
 
 ## 🚀 Sobre mim...
 
@@ -42,9 +40,9 @@ Estudando e utilizando as melhores práticas com **Sistema de controle de versã
  - [Conheça a iniciativa ONE (Oracle Next Education)](https://www.oracle.com/br/education/oracle-next-education/)
  - [Conheça a Alura](https://www.alura.com.br/sobre)
 
-[!rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
+![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
 
-## Em Andamento ("Quando uma jornada termina, sempre haverá novas aventuras!")
+## Projetos: Em Andamento --> ("Quando uma jornada termina, sempre haverá novas aventuras!")
 
 
 ```bash
