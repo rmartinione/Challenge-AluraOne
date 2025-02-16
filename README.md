@@ -24,17 +24,20 @@ Procuro focar e aplicar as tecnologias voltadas área do desenvolvimento web, se
 E quem sabe conseguir contribuir com a comunidade, porque não?
 
 
-## Aprendizados
+## Knowledge
 
-Atualmente, estudos aplicados para JavaScript, HTML e CSS.
+Atualmente, estudos aplicados para <b>JavaScript, HTML e CSS.</b>
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+![rmartinione's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
 
 ## Saiba mais sobre o projeto
 
  - [Conheça a iniciativa ONE (Oracle Next Education)](https://www.oracle.com/br/education/oracle-next-education/)
  - [Conheça a Alura](https://www.alura.com.br/sobre)
 
+![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
 
 ## Em Andamento ("Quando uma jornada termina, sempre haverá novas aventuras!")
 
