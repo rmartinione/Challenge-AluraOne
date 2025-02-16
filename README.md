@@ -12,10 +12,10 @@ Sou um amante da tecnologia moderna e contemporânea, com a IA sendo o carro-che
 Embora eu tenha iniciado minha carreira em desenvolvimento web, estou animado para aplicar as habilidades que adquiri em projetos do mundo real e desafios de codificação. 
 Procuro focar e aplicar as tecnologias voltadas para a área do desenvolvimento web, sempre mantendo meus recursos seguros e contribuindo com soluções criativas e inovadoras.
 E quem sabe conseguir contribuir com a comunidade, porque não?
-<br>
-# <h2><strong>Sobre ONE</strong></h2>
 
-<h2 role="heading" aria-level="4">Tecnologia para todo mundo!</h2>
+
+## <h2><strong>Sobre ONE</strong></h2>
+
 <br>
 <p><strong>ONE</strong> é um programa de educação, inclusão e empregabilidade criado pela <strong><u>Oracle</u></strong> para capacitar pessoas em tecnologia e conectá-las ao mercado de trabalho com o apoio de empresas parceiras.</p>
 <br>
@@ -27,7 +27,7 @@ E quem sabe conseguir contribuir com a comunidade, porque não?
 [![Apresentação do Projeto One](https://img.youtube.com/vi/1Yzvr9_ym7c/0.jpg)](https://www.youtube.com/watch?v=1Yzvr9_ym7c)
 <br>
 <br>
-## Saiba mais sobre o projeto
+<h2>Saiba mais sobre o projeto abaixo</h2>
 
  - [Conheça a iniciativa ONE (Oracle Next Education)](https://www.oracle.com/br/education/oracle-next-education/)
  - [Conheça a Alura](https://www.alura.com.br/sobre)
