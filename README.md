@@ -1,15 +1,18 @@
 
 # Challenge-AluraOne
 
-Repositório para estudos e desafios do projeto do curso Alura-One
+Repositório para estudos e desafios do projeto do curso **Alura-One**
+
 
 [Clique aqui para Sortear o Seu Amigo Secreto - Challenge-AluraOne](https://rmartinione.github.io/Challenge-AluraOne/challenge-amigo-secreto/index.html)
 
 [Clique aqui para Visualizar o repositório do Challenge-AluraOne "Amigo Secreto"](https://github.com/rmartinione/Challenge-AluraOne/tree/ff24712de38b0c1bc1baa21c8724645dd860e697/challenge-amigo-secreto)
 
 
-## 🚀 Sobre mim...
+[![Solid](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:www.linkedin.com/in/rafael-martiniano)
 
+
+## 🚀 Sobre mim...
 
 Me chamo Rafael Martiniano.
 
@@ -26,18 +29,20 @@ E quem sabe conseguir contribuir com a comunidade, porque não?
 
 ## Knowledge
 
-Atualmente, estudos aplicados para <b>JavaScript, HTML e CSS.</b>
+Atualmente, estudos aplicados para **Desenvolvimento (Front-End)** usando às linguagens: **JavaScript, HTML e CSS**.
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 
-![rmartinione's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
+Estudando e utilizando as melhores práticas com **Sistema de controle de versão** com **Git** e **Repositório Remoto e administração** com **GitHub**.
+
+[![Solid](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://rmartinione.github.io/Challenge-AluraOne) ![Solid](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ## Saiba mais sobre o projeto
 
  - [Conheça a iniciativa ONE (Oracle Next Education)](https://www.oracle.com/br/education/oracle-next-education/)
  - [Conheça a Alura](https://www.alura.com.br/sobre)
 
-![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
+[!rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
 
 ## Em Andamento ("Quando uma jornada termina, sempre haverá novas aventuras!")
 
