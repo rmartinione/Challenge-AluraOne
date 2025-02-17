@@ -33,24 +33,6 @@ Confira mais sobre o **ONE**:
 
 ---
 
-## Sobre referência de segurança da Oracle
-
-Segurança no Oracle  
-
-Este documento contém diretrizes e referências sobre segurança em projetos que utilizam tecnologias Oracle.  
-
-## Links úteis  
-
-- [Segurança no Oracle Database](https://docs.oracle.com/en/database/oracle/oracle-database/)  
-- [Oracle Cloud Security](https://www.oracle.com/cloud/security/)  
-- [Oracle Data Safe – Proteção de Dados](https://www.oracle.com/database/technologies/data-safe.html)  
-
-## Melhorias Futuras  
-- Implementar criptografia de dados no Oracle.  
-- Explorar autenticação segura com Oracle Identity Cloud.
-
----
-
 ### Vídeo sobre o Projeto ONE:
 
 [![Apresentação do Projeto One](https://img.youtube.com/vi/1Yzvr9_ym7c/0.jpg)](https://www.youtube.com/watch?v=1Yzvr9_ym7c)
@@ -98,3 +80,21 @@ Abaixo, um dos projetos que realizei durante o curso:
   comando <subcomando>
      resultado_Subcomando(#"Sempre_Em_Evolução"#)
 ```
+
+## Sobre referência de segurança da Oracle
+
+Segurança no Oracle  
+
+Este documento contém diretrizes e referências sobre segurança em projetos que utilizam tecnologias Oracle.  
+
+## Links úteis  
+
+- [Segurança no Oracle Database](https://docs.oracle.com/en/database/oracle/oracle-database/)  
+- [Oracle Cloud Security](https://www.oracle.com/cloud/security/)  
+- [Oracle Data Safe – Proteção de Dados](https://www.oracle.com/database/technologies/data-safe.html)  
+
+## Melhorias Futuras  
+- Implementar criptografia de dados no Oracle.  
+- Explorar autenticação segura com Oracle Identity Cloud.
+
+---
