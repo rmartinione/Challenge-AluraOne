@@ -88,6 +88,12 @@ Abaixo, um dos projetos que realizei durante o curso:
 
 ---
 
+## Changelog
+
+Confira todas as mudanças e melhorias no projeto acessando o [Changelog](https://github.com/rmartinione/Challenge-AluraOne/blob/main/CHANGELOG.md).
+
+---
+
 ## Minhas estatísticas ##
 
 ![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
