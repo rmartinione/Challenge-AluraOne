@@ -55,6 +55,18 @@ Além disso, estou praticando as melhores práticas em **controle de versão com
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://rmartinione.github.io/Challenge-AluraOne) 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
+## 📝 Blog e Artigos
+
+Nesta seção, gostaria de compartilhar um pouco do conteúdo aprendido no curso.
+Para realização desse desafio que é o primeiro de muitos.
+
+**Últimos Artigos:**
+
+- **[CSS: o que é, como usar no HTML e um Guia para iniciar](https://www.alura.com.br/artigos/css?srsltid=AfmBOop3-osjP-H4g74bIzPK0SfTkpjVtBzcz9WshIoWDYPeOAcny7Jo)**: Estratégias para garantir que suas páginas web se adaptem a diferentes dispositivos e tamanhos de tela.
+- **[Como Dominar Flexbox no CSS](https://www.alura.com.br/artigos/css-guia-do-flexbox)**: Um guia prático para entender e aplicar o Flexbox em seus projetos de front-end.
+- **[Introdução ao JavaScript Moderno](https://www.alura.com.br/curso-online-javascript-introducao)**: Uma visão geral das funcionalidades modernas do JavaScript e como utilizá-las em seus projetos.
+- **[Melhores Práticas em Versionamento de Código com Git](https://www.alura.com.br/curso-online-css-posicionando-elementos-flexbox)**: Dicas e truques para manter seu código organizado e seguro utilizando Git.
+
 ---
 
 ## Repositório/Desafios do Challenge Alura + One
