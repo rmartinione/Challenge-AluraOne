@@ -61,6 +61,8 @@ Além disso, estou praticando as melhores práticas em **controle de versão com
 
 Este repositório contém os desafios realizados durante o curso **Alura-One**, um projeto em constante evolução para aprimorar meus conhecimentos e habilidades.
 
+![pages-build-deployment](https://github.com/rmartinione/Challenge-AluraOne/actions/workflows/pages/pages-build-deployment/badge.svg)
+
 Abaixo, um dos projetos que realizei durante o curso:
 
 - [**Clique aqui para Sortear o Seu Amigo Secreto** - Challenge-AluraOne](https://rmartinione.github.io/Challenge-AluraOne/challenge-amigo-secreto/index.html)
@@ -73,6 +75,8 @@ Abaixo, um dos projetos que realizei durante o curso:
 ![rmartinione's Stats](https://github-readme-stats.vercel.app/api?username=rmartinione&theme=tokyonight&show_icons=true&hide_border=false&count_private=false)
 
 ## Status do Projetos: Em Andamento
+
+Veja 
 
 > A jornada nunca termina. "Sempre haverá novas aventuras nos aguardando!"
 
