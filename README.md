@@ -33,6 +33,12 @@ Confira mais sobre o **ONE**:
 
 ---
 
+## Código de Conduta
+
+Para garantir um ambiente acolhedor e inclusivo, todos os participantes e colaboradores deste projeto são encorajados a seguir nosso [Código de Conduta](CODE_OF_CONDUCT.md).
+
+---
+
 ### Vídeo sobre o Projeto ONE:
 
 [![Apresentação do Projeto One](https://img.youtube.com/vi/1Yzvr9_ym7c/0.jpg)](https://www.youtube.com/watch?v=1Yzvr9_ym7c)
