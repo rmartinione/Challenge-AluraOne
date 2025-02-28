@@ -1,124 +1,160 @@
-// Mensagem de Boas-Vindas
+/* Exibe uma mensagem de boas-vindas ao carregar a página */
 alert('Seja bem-vindo ao Amigo Secreto!');
 
-// Identificando jogador e idade
+/* Solicita o nome do usuário e exibe no console */
 const nome = prompt('Qual é o seu nome?');
 console.log(nome);
+
+/* Solicita a idade do usuário, converte para número e exibe no console */
 let idade = parseInt(prompt('Qual é a sua idade?'));
 console.log(idade);
 
-// Mensagem de boas-vindas personalizada
+/* Exibe uma mensagem personalizada e explica o funcionamento */
 alert(`Seja bem-vindo, ${nome}!`);
 alert('Este é um site voltado para sua diversão, clique em "OK" para continuar.');
 
-// Lista de amigos
+/* Inicializa a lista vazia de amigos */
 let amigos = [];
 
-// Lista de caracteres proibidos
+/* Define os caracteres proibidos para os nomes */
 const caracteresProibidos = ["@", "#", "$", "%", "&", "*", "!", "?", "/", "\\", "+", "=", "<", ">"];
 
-// Função para adicionar amigos
+/* Função para adicionar um amigo à lista */
 function adicionarAmigo() {
-    const amigoInput = document.getElementById('amigo');
-    const amigoNome = amigoInput.value.trim(); // Remove espaços extras
+  /* Obtém o elemento do input e remove espaços extras */
+  const amigoInput = document.getElementById('amigo');
+  const amigoNome = amigoInput.value.trim();
 
-    // Validação: Nome vazio
-    if (amigoNome === "") {
-        alert("Digite um nome válido!");
-        return;
-    }
+  /* Validação: verifica se o nome está vazio */
+  if (amigoNome === "") {
+    alert("Digite um nome válido!");
+    return;
+  }
 
-    // Validação: Nome já adicionado
-    if (amigos.includes(amigoNome)) {
-        alert("Este nome já foi adicionado!");
-        return;
-    }
+  /* Validação: impede nomes duplicados */
+  if (amigos.includes(amigoNome)) {
+    alert("Este nome já foi adicionado!");
+    return;
+  }
 
-    // Validação: Bloquear números
-    function contemNumeros(nome) {
-        for (let i = 0; i < nome.length; i++) {
-            if (!isNaN(parseInt(nome[i]))) {
-                return true; // Encontrou um número
-            }
-        }
-        return false; // Nenhum número encontrado
-    }
+  /* Validação: impede a inclusão de números no nome */
+  if (/\d/.test(amigoNome)) {
+    alert("Números não são permitidos! Digite apenas letras.");
+    return;
+  }
 
-    if (contemNumeros(amigoNome)) {
-        alert("Números não são permitidos! Digite apenas letras.");
-        return;
+  /* Validação: impede caracteres especiais proibidos */
+  for (let i = 0; i < caracteresProibidos.length; i++) {
+    if (amigoNome.includes(caracteresProibidos[i])) {
+      alert(`O caractere "${caracteresProibidos[i]}" não é permitido!`);
+      return;
     }
+  }
 
-    // Validação: Bloquear caracteres especiais
-    for (let i = 0; i < caracteresProibidos.length; i++) {
-        if (amigoNome.includes(caracteresProibidos[i])) {
-            alert(`O caractere "${caracteresProibidos[i]}" não é permitido!`);
-            return;
-        }
-    }
-    
-    // Atualiza a lista na tela e limpa o campo de entrada
-    amigos.push(amigoNome);
-    atualizarLista(); // Atualiza a lista na tela
-    amigoInput.value = ""; // Limpa o campo de entrada
+  /* Se aprovado, adiciona o nome à lista e atualiza a exibição */
+  amigos.push(amigoNome);
+  atualizarLista();
+  amigoInput.value = "";
+  amigoInput.focus();
 }
 
-// Função para atualizar a lista de amigos na tela
+/* Função para atualizar a lista exibida com os amigos adicionados */
 function atualizarLista() {
-    const lista = document.getElementById('listaAmigos');
-    lista.innerHTML = "";
-
-    amigos.forEach(amigo => {
-        let li = document.createElement("li");
-        li.textContent = amigo;
-        lista.appendChild(li);
-    });
+  const lista = document.getElementById('listaAmigos');
+  lista.innerHTML = "";
+  amigos.forEach(amigo => {
+    let li = document.createElement("li");
+    li.textContent = amigo;
+    lista.appendChild(li);
+  });
 }
 
-// Função para sortear os amigos secretos
+/* Função para sortear os amigos garantindo que nenhum sorteie a si mesmo */
 function sortearAmigo() {
-    if (amigos.length < 2) {
-        alert("Adicione pelo menos 2 amigos para sortear.");
-        return;
-    }
+  if (amigos.length < 2) {
+    alert("Adicione pelo menos 2 amigos para sortear.");
+    return;
+  }
 
-    let sorteio = [...amigos]; // Copia a lista para embaralhar
-    sorteio = embaralharArray(sorteio);
+  let sorteio;
+  let valido = false;
 
-    let resultadoHTML = "";
-    let tentativas = 0;
-    while (true) {
-        let valido = true;
-        for (let i = 0; i < amigos.length; i++) {
-            if (amigos[i] === sorteio[i]) {
-                valido = false;
-                break;
-            }
-        }
-        if (valido) {
-            break;
-        } else {
-            sorteio = embaralharArray([...amigos]);
-            tentativas++;
-            if (tentativas > 1000) {
-                alert("Não foi possível realizar um sorteio válido. Tente novamente.");
-                return;
-            }
-        }
-    }
-
+  /* Embaralha e verifica se nenhum amigo sorteou a si mesmo */
+  while (!valido) {
+    sorteio = embaralharArray([...amigos]);
+    valido = true;
     for (let i = 0; i < amigos.length; i++) {
-        resultadoHTML += `<li>${amigos[i]} → ${sorteio[i]}</li>`;
+      if (amigos[i] === sorteio[i]) {
+        valido = false;
+        break;
+      }
     }
+  }
 
-    document.getElementById("resultado").innerHTML = resultadoHTML;
+  /* Monta um array com os pares do sorteio */
+  let resultados = [];
+  for (let i = 0; i < amigos.length; i++) {
+    resultados.push(`${amigos[i]} → ${sorteio[i]}`);
+  }
+
+  /* Desabilita o botão de sortear enquanto os resultados são exibidos */
+  document.getElementById('sortearBtn').disabled = true;
+  mostrarResultadosSequencialmente(resultados);
 }
 
-// Função para embaralhar a lista (algoritmo Fisher-Yates)
-function embaralharArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]]; // Troca os elementos
+/* Função para exibir os resultados do sorteio um por vez */
+function mostrarResultadosSequencialmente(resultados) {
+  const resultadoElement = document.getElementById("resultado");
+  resultadoElement.innerHTML = "";  // Limpa resultados anteriores
+  
+  let i = 0;  // Índice para controlar os resultados
+
+  function mostrarProximo() {
+    if (i < resultados.length) {
+      /* Cria um item <li> com o resultado atual e centraliza o texto */
+      let li = document.createElement("li");
+      li.innerHTML = resultados[i];
+      li.style.textAlign = "center";
+      resultadoElement.appendChild(li);
+      
+      /* Exibe o resultado atual */
+      alert(resultados[i]);
+      
+      i++;  // Incrementa para o próximo resultado
+      
+      /* Exibe mensagem se houver mais pares ou mensagem final */
+      if (i < resultados.length) {
+        alert("Próximo sorteio");
+      } else {
+        alert("Fim do sorteio, clique em OK para recomeçar");
+        /* Exibe o botão de reiniciar sorteio */
+        document.getElementById('reiniciarBtn').style.display = "block";
+      }
+      
+      /* Chama a função recursivamente para o próximo par */
+      mostrarProximo();
     }
-    return array;
+  }
+  mostrarProximo();
+}
+
+/* Função para reiniciar o sorteio */
+function reiniciarSorteio() {
+  /* Limpa o elemento de resultados */
+  document.getElementById("resultado").innerHTML = "";
+  
+  /* Reabilita o botão de sortear */
+  document.getElementById('sortearBtn').disabled = false;
+  
+  /* Oculta o botão de reiniciar */
+  document.getElementById('reiniciarBtn').style.display = "none";
+}
+
+/* Função para embaralhar um array utilizando o algoritmo Fisher-Yates */
+function embaralharArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];  // Troca os elementos
+  }
+  return array;
 }
