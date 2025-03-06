@@ -1,0 +1,225 @@
+/* === Basic Reset & Variables === */
+/* Resetando margin, padding e box-sizing para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição das variáveis de cores para os temas claro e escuro */
+:root {
+    /* Cores para o tema claro */
+    --primary-color-light: #007bff; /* Azul */
+    --secondary-color-light: #6c757d;
+    --background-color-light: #f8f9fa;
+    --text-color-light: #212529;
+    --white-light: #fff;
+    --success-color-light: #28a745;
+    --warning-color-light: #ffc107;
+
+    /* Cores para o tema escuro */
+    --primary-color-dark: #1e1e1e;
+    --secondary-color-dark: #444;
+    --background-color-dark: #121212;
+    --text-color-dark: #e0e0e0;
+    --white-dark: #333;
+    --success-color-dark: #28a745;
+    --warning-color-dark: #ffc107;
+}
+
+/* === Tipografia e Cor do Texto === */
+/* Estilizando o corpo da página com fontes e cores apropriadas */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color); /* Usando variável para texto */
+    background-color: var(--background-color); /* Usando variável para o fundo */
+    transition: background-color 0.3s ease; /* Transição suave para mudanças de cor */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+/* === Cabeçalho & Rodapé === */
+/* Estilizando cabeçalho e rodapé para ambos os temas */
+.cabecalho, .rodape {
+    background-color: var(--primary-color); /* Cor de fundo padrão, será alterado conforme o tema */
+    color: var(--white); /* Cor do texto */
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombras sutis */
+}
+
+.cabecalho img, .rodape img {
+    max-width: 100px; /* Limitando o tamanho das imagens */
+}
+
+.rodape {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* === Tema Claro === */
+/* Ajustando cores para o tema claro */
+body.light-theme {
+    --primary-color: #007bff; /* Azul para o tema claro */
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --white: #fff;
+}
+
+body.light-theme .cabecalho, body.light-theme .rodape {
+    background-color: var(--primary-color); /* Azul para o cabeçalho e rodapé */
+}
+
+/* === Tema Escuro === */
+/* Ajustando cores para o tema escuro */
+body.dark-theme {
+    --primary-color: #343a40; /* Cor escura para o cabeçalho e rodapé */
+    --secondary-color: #6c757d;
+    --background-color: #212529;
+    --text-color: #e9ecef;
+    --white: #495057;
+}
+
+body.dark-theme .cabecalho, body.dark-theme .rodape {
+    background-color: var(--primary-color); /* Cor escura para o cabeçalho e rodapé */
+}
+
+/* === Navegação === */
+/* Estilizando a navegação lateral */
+.navegacao {
+    flex: 0 0 250px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.navegacao ul {
+    list-style: none; /* Removendo marcadores de lista */
+    padding: 0;
+}
+
+.navegacao ul li {
+    margin: 10px 0;
+}
+
+.navegacao ul li a {
+    text-decoration: none; /* Removendo underline */
+    color: var(--white); /* Cor do texto */
+    display: block;
+    background: linear-gradient(45deg, #ff6b6b, #f06595); /* Gradiente de fundo */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.navegacao ul li a:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b); /* Efeito hover */
+    transform: scale(1.1); /* Aumentando o tamanho no hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando sombra */
+}
+
+/* === Layout Principal === */
+/* Estilizando o layout principal e o conteúdo */
+.principal {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garantindo que ocupe toda a altura da tela */
+    padding: 1em;
+    flex-direction: column; /* Coloca os elementos na direção vertical */
+    animation: fadeIn 1s ease-out;
+}
+
+/* Centraliza o conteúdo dentro do container */
+.conteudo {
+    width: 100%;
+    max-width: 800px; /* Limita a largura do conteúdo */
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.conteudo:hover {
+    transform: translateY(-2px); /* Levanta o conteúdo no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Aumenta a sombra no hover */
+}
+
+/* === Botões & Interações === */
+/* Estilizando botões gerais */
+.botao {
+    margin: 0.5rem;
+    text-align: center; /* Garante que o texto do botão seja centralizado */
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao-voltar {
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #0056b3; /* Cor de fundo no hover */
+    transform: translateY(-1px); /* Efeito de elevação */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25); /* Aumentando a sombra */
+}
+
+/* === Estilização para o botão "Tentar Novamente" === */
+.botao-jogar-novamente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Faz o botão ocupar toda a largura disponível */
+    margin-top: 20px;
+}
+
+/* === Contêiner de Botões Lado a Lado === */
+.botao-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 20px; /* Distância do topo (ajustável conforme necessário) */
+}
+
+
+/* === Responsividade para Botões === */
+@media (max-width: 768px) {
+    .principal {
+        padding: 10px;
+    }
+
+    .botao-container {
+        flex-direction: column; /* Coloca os botões em coluna em telas menores */
+        gap: 1rem; /* Espaço entre os botões */
+    }
+
+    .botao {
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+    }
+
+    .conteudo {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+/* === Animação de Fade-In === */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
