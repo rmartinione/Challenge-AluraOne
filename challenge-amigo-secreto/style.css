@@ -175,6 +175,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+/* Popup */
 .popup {
     display: none; /* Escondido por padrão */
     position: fixed;
