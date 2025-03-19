@@ -181,7 +181,7 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: var(--color-secondary);
     padding: 20px;
     border: 2px solid var(--color-primary);
     border-radius: 10px;
@@ -190,6 +190,7 @@ ul {
     text-align: center;
     width: 80%; /* Largura padrão */
     max-width: 400px; /* Largura máxima */
+    color: var(--color-text);
 }
 
 .popup button {
