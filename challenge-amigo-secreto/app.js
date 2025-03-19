@@ -99,53 +99,33 @@ function sortearAmigo() {
 
   /* Desabilita o botão de sortear enquanto os resultados são exibidos */
   document.getElementById('sortearBtn').disabled = true;
-  mostrarResultadosSequencialmente(resultados);
+  mostrarResultadosNaPagina(resultados);
 }
 
-/* Função para exibir os resultados do sorteio um por vez */
-function mostrarResultadosSequencialmente(resultados) {
+/* Função para exibir os resultados do sorteio na página */
+function mostrarResultadosNaPagina(resultados) {
   const resultadoElement = document.getElementById("resultado");
   resultadoElement.innerHTML = "";  // Limpa resultados anteriores
-  
-  let i = 0;  // Índice para controlar os resultados
 
-  function mostrarProximo() {
-    if (i < resultados.length) {
-      /* Cria um item <li> com o resultado atual e centraliza o texto */
-      let li = document.createElement("li");
-      li.innerHTML = resultados[i];
-      li.style.textAlign = "center";
-      resultadoElement.appendChild(li);
-      
-      /* Exibe o resultado atual */
-      alert(resultados[i]);
-      
-      i++;  // Incrementa para o próximo resultado
-      
-      /* Exibe mensagem se houver mais pares ou mensagem final */
-      if (i < resultados.length) {
-        alert("Próximo sorteio");
-      } else {
-        alert("Fim do sorteio, clique em OK para recomeçar");
-        /* Exibe o botão de reiniciar sorteio */
-        document.getElementById('reiniciarBtn').style.display = "block";
-      }
-      
-      /* Chama a função recursivamente para o próximo par */
-      mostrarProximo();
-    }
-  }
-  mostrarProximo();
+  resultados.forEach((resultado, index) => {
+    let li = document.createElement("li");
+    li.innerHTML = resultado;
+    li.style.textAlign = "center";
+    resultadoElement.appendChild(li);
+  });
+
+  // Exibe o botão de reiniciar sorteio
+  document.getElementById('reiniciarBtn').style.display = "block";
 }
 
 /* Função para reiniciar o sorteio */
 function reiniciarSorteio() {
   /* Limpa o elemento de resultados */
   document.getElementById("resultado").innerHTML = "";
-  
+
   /* Reabilita o botão de sortear */
   document.getElementById('sortearBtn').disabled = false;
-  
+
   /* Oculta o botão de reiniciar */
   document.getElementById('reiniciarBtn').style.display = "none";
 }
